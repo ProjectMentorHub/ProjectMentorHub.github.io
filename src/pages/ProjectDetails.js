@@ -1,7 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
-import AdSidebar from '../components/AdSidebar';
 import { motion } from 'framer-motion';
 import projects from '../data/projects';
 import SEO from '../components/SEO';
@@ -65,6 +64,8 @@ const ProjectDetails = () => {
   }, [project, shortDescription]);
 
   const displayCategory = getDisplayCategory(project);
+  const contactPhone = displayCategory === 'CSE' ? '+91 7207438246' : '+91 9392400166';
+  const contactTel = contactPhone.replace(/\s+/g, '');
 
   if (loading) {
     return (
@@ -101,8 +102,7 @@ const ProjectDetails = () => {
       schema={productSchema}
     />
     <div className="min-h-screen py-12 bg-gray-50">
-      <div className="container mx-auto px-4 max-w-7xl flex gap-8">
-        <div className="flex-1 max-w-6xl">
+      <div className="container mx-auto px-4 max-w-5xl">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Image */}
           <motion.div
@@ -174,11 +174,19 @@ const ProjectDetails = () => {
                 <strong>Includes:</strong> Complete project documentation, source code, and implementation guide
               </p>
             </div>
+
+            <div className="p-4 bg-white border border-black/5 rounded-2xl">
+              <p className="text-sm font-semibold text-gray-900">Need help with this project?</p>
+              <p className="text-sm text-gray-600 mt-1">
+                For {displayCategory === 'CSE' ? 'CSE projects' : 'other categories'}, reach us at{' '}
+                <a href={`tel:${contactTel}`} className="font-semibold text-gray-900 hover:underline">
+                  {contactPhone}
+                </a>
+                .
+              </p>
+            </div>
           </motion.div>
         </div>
-        </div>
-        
-        <AdSidebar />
       </div>
     </div>
     </>

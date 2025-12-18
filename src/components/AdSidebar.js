@@ -3,6 +3,9 @@ import GoogleAd from './GoogleAd';
 import { ADSENSE_SLOTS } from '../config/adsense';
 
 const AdSidebar = () => {
+  const hasTopAd = Boolean(ADSENSE_SLOTS.rectangleTop);
+  const hasBottomAd = Boolean(ADSENSE_SLOTS.rectangleBottom);
+
   return (
     <aside className="hidden lg:block w-64">
       <motion.div
@@ -13,8 +16,7 @@ const AdSidebar = () => {
       >
         {/* Ad Container */}
         <div className="space-y-4">
-          {/* Advertisement 1 */}
-          {ADSENSE_SLOTS.rectangleTop ? (
+          {hasTopAd && (
             <div className="bg-white border border-black/5 rounded-lg p-3">
               <GoogleAd
                 adSlot={ADSENSE_SLOTS.rectangleTop}
@@ -23,20 +25,9 @@ const AdSidebar = () => {
                 format="auto"
               />
             </div>
-          ) : (
-            <div className="bg-gradient-to-br from-gray-50 to-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-6 text-center min-h-[300px] flex flex-col items-center justify-center">
-              <div className="text-gray-400 mb-2">
-                <svg className="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <p className="text-sm text-gray-500 font-medium">Advertisement Space</p>
-              <p className="text-xs text-gray-400 mt-2">300x250</p>
-            </div>
           )}
 
-          {/* Advertisement 2 */}
-          {ADSENSE_SLOTS.rectangleBottom ? (
+          {hasBottomAd && (
             <div className="bg-white border border-black/5 rounded-lg p-3">
               <GoogleAd
                 adSlot={ADSENSE_SLOTS.rectangleBottom}
@@ -44,16 +35,6 @@ const AdSidebar = () => {
                 style={{ width: '100%', minHeight: '250px' }}
                 format="auto"
               />
-            </div>
-          ) : (
-            <div className="bg-gradient-to-br from-gray-50 to-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-6 text-center min-h-[250px] flex flex-col items-center justify-center">
-              <div className="text-gray-400 mb-2">
-                <svg className="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <p className="text-sm text-gray-500 font-medium">Advertisement Space</p>
-              <p className="text-xs text-gray-400 mt-2">300x250</p>
             </div>
           )}
 

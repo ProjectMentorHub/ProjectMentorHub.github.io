@@ -4,7 +4,6 @@ import { AuthProvider } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
 import Navbar from './components/Navbar';
 import CartDrawer from './components/CartDrawer';
-import AdBanner from './components/AdBanner';
 import Footer from './components/Footer';
 import SupportChatbot from './components/SupportChatbot';
 import AuthPromptModal from './components/AuthPromptModal';
@@ -77,7 +76,6 @@ function App() {
           </Routes>
           <SupportChatbot />
           <CartDrawer />
-          <AdBanner />
           <AuthPromptModal />
           <Footer />
         </div>

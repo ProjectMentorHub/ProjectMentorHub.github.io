@@ -4,7 +4,7 @@
     "title": "Heart Disease Prediction using Machine Learning",
     "description": "A predictive ML project that analyzes patient health parameters to determine the likelihood of heart disease using Logistic Regression and Random Forest algorithms.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "Machine Learning",
       "Healthcare",
@@ -25,7 +25,7 @@
     "title": "Fake News Detection using Natural Language Processing",
     "description": "An NLP-based machine learning project that classifies news articles as real or fake using TF-IDF vectorization and Logistic Regression.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "NLP",
       "Text Classification",
@@ -45,7 +45,7 @@
     "title": "Breast Cancer Classification using Support Vector Machine",
     "description": "An easy yet powerful ML project that classifies tumors as malignant or benign using Support Vector Machines on the Wisconsin dataset.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "Classification",
       "SVM",
@@ -66,7 +66,7 @@
     "title": "Student Performance Prediction using Regression Models",
     "description": "A simple regression-based ML project that predicts student grades using study hours, attendance, and past performance data.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "Regression",
       "Prediction",
@@ -82,11 +82,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML105",
+    "id": "CSDL101",
     "title": "Plant Disease Detection using Convolutional Neural Networks",
     "description": "A deep learning project that classifies plant leaf images into healthy or diseased categories using CNN architecture trained on PlantVillage dataset.",
     "category": "CSE",
-    "price": 3999,
+    "price": 8000,
     "tags": [
       "Deep Learning",
       "CNN",
@@ -102,11 +102,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML106",
+    "id": "CSML105",
     "title": "AI-Powered Health Risk Dashboard",
     "description": "An interactive Streamlit web app that predicts heart disease, diabetes, and obesity risk using multiple ML models with visual dashboards.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "Machine Learning",
       "Streamlit",
@@ -123,11 +123,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML107",
+    "id": "CSML106",
     "title": "Fake News Detection Web App",
     "description": "A Flask-based NLP web application that detects whether news headlines are fake or real in real time.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "NLP",
       "Flask",
@@ -144,11 +144,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML108",
+    "id": "CSDL102",
     "title": "Plant Disease Detection Dashboard",
     "description": "A CNN-powered Streamlit interface that allows users to upload plant leaf photos and get instant disease classification with explanation.",
     "category": "CSE",
-    "price": 3999,
+    "price": 8000,
     "tags": [
       "CNN",
       "TensorFlow",
@@ -165,11 +165,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML109",
+    "id": "CSML107",
     "title": "Student Performance Predictor with Charts",
     "description": "A regression-based Streamlit dashboard predicting final grades and visualizing study patterns and outcomes.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "Regression",
       "Streamlit",
@@ -185,11 +185,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML110",
+    "id": "CSDL103",
     "title": "Cervical Cancer Detection using Deep Learning",
     "description": "A healthcare AI web app for classifying cervical images into normal and precancerous categories using EfficientNet-B0.",
     "category": "CSE",
-    "price": 3999,
+    "price": 8000,
     "tags": [
       "Healthcare",
       "CNN",
@@ -206,11 +206,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML111",
+    "id": "CSDL104",
     "title": "Speech Emotion Detector Web Interface",
     "description": "A Flask + JS web app that records user voice and detects emotion using LSTM-based audio model.",
     "category": "CSE",
-    "price": 3999,
+    "price": 8000,
     "tags": [
       "Speech",
       "Flask",
@@ -226,11 +226,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML112",
+    "id": "CSML108",
     "title": "AI Resume Analyzer & Job Match Portal",
     "description": "A Streamlit-based AI system that parses resumes, extracts key skills, and matches with job descriptions using NLP.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "NLP",
       "Streamlit",
@@ -246,11 +246,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML113",
+    "id": "CSML109",
     "title": "Credit Card Fraud Detection Dashboard",
     "description": "A fraud detection visualization dashboard that allows uploading transaction CSVs and visualizing anomalies using PCA and Random Forest.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "Anomaly Detection",
       "Finance",
@@ -266,11 +266,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML114",
+    "id": "CSML110",
     "title": "Emotion Detection from Text Web App",
     "description": "A React + Flask based web app that classifies text into emotional categories like joy, anger, or sadness.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "NLP",
       "Flask",
@@ -286,11 +286,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML115",
+    "id": "CSDL105",
     "title": "Face Mask Detection App",
     "description": "A real-time mask detection app built using OpenCV and TensorFlow with live webcam feed integration.",
     "category": "CSE",
-    "price": 3999,
+    "price": 8000,
     "tags": [
       "CNN",
       "OpenCV",
@@ -306,11 +306,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML116",
+    "id": "CSDL106",
     "title": "COVID-19 Data Visualization and Forecasting Dashboard",
     "description": "A time-series forecasting dashboard showing daily COVID-19 trends and predictions using ARIMA and LSTM.",
     "category": "CSE",
-    "price": 3999,
+    "price": 8000,
     "tags": [
       "Time Series",
       "Streamlit",
@@ -326,11 +326,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML117",
+    "id": "CSDL107",
     "title": "Brain Tumor Detection Interactive UI",
     "description": "A medical imaging web app using CNN to detect brain tumors from MRI images with clear UI visualization.",
     "category": "CSE",
-    "price": 3999,
+    "price": 8000,
     "tags": [
       "CNN",
       "TensorFlow",
@@ -346,11 +346,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML118",
+    "id": "CSML111",
     "title": "House Price Predictor with Interactive Maps",
     "description": "A Flask + Leaflet.js app that predicts house prices based on input location and displays results on a live map.",
     "category": "CSE",
-    "price": 3999,
+    "price": 6000,
     "tags": [
       "Regression",
       "Flask",
@@ -366,11 +366,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML119",
+    "id": "CSDL108",
     "title": "AI Chatbot using NLP and Streamlit",
     "description": "A conversational AI chatbot built using transformer models (DistilBERT) and deployed in Streamlit.",
     "category": "CSE",
-    "price": 3999,
+    "price": 8000,
     "tags": [
       "Chatbot",
       "Transformers",
@@ -386,11 +386,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "CSML120",
+    "id": "CSDL109",
     "title": "AI Traffic Sign Recognition Web App",
     "description": "An interactive CNN-based web app that classifies uploaded traffic signs using deep learning and displays label confidence.",
     "category": "CSE",
-    "price": 3999,
+    "price": 8000,
     "tags": [
       "CNN",
       "Computer Vision",
@@ -406,11 +406,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "SCWD001",
+    "id": "CSML112",
     "title": "Personal Portfolio Website",
     "description": "A responsive portfolio website built using HTML, CSS, JavaScript, and Bootstrap to showcase personal skills, achievements, and projects.",
     "category": "CSE",
-    "price": 2499,
+    "price": 6000,
     "tags": [
       "Portfolio",
       "HTML",
@@ -427,11 +427,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "SCWD002",
+    "id": "CSWD101",
     "title": "E-Commerce Website",
     "description": "A complete shopping website built using React and Node.js featuring cart, wishlist, and payment gateway integration.",
     "category": "CSE",
-    "price": 4999,
+    "price": 4000,
     "tags": [
       "E-Commerce",
       "React",
@@ -448,11 +448,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "SCWD003",
+    "id": "CSWD102",
     "title": "Restaurant Website with Online Ordering",
     "description": "A food ordering platform built with PHP and MySQL that allows customers to view menus, place orders, and track delivery.",
     "category": "CSE",
-    "price": 3999,
+    "price": 4000,
     "tags": [
       "Restaurant",
       "PHP",
@@ -468,11 +468,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "SCWD004",
+    "id": "CSWD103",
     "title": "Travel Agency Website",
     "description": "A visually appealing website built using Django that lets users browse tour packages, book trips, and make online payments.",
     "category": "CSE",
-    "price": 4299,
+    "price": 4000,
     "tags": [
       "Travel",
       "Django",
@@ -488,11 +488,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "SCWD005",
+    "id": "CSWD104",
     "title": "Online Course Selling Website",
     "description": "A learning management platform built using MERN stack that sells courses and projects to students with instant access links.",
     "category": "CSE",
-    "price": 5499,
+    "price": 4000,
     "tags": [
       "MERN",
       "Courses",
@@ -508,11 +508,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "SCWD006",
+    "id": "CSWD105",
     "title": "Event Management Website",
     "description": "A PHP + MySQL platform for scheduling and managing college or corporate events with registration and ticket generation.",
     "category": "CSE",
-    "price": 3799,
+    "price": 4000,
     "tags": [
       "Event",
       "PHP",
@@ -528,11 +528,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "SCWD007",
+    "id": "CSML113",
     "title": "Hotel Booking Website",
     "description": "A web portal built using Laravel for booking hotel rooms with availability check, reviews, and online payment.",
     "category": "CSE",
-    "price": 4599,
+    "price": 6000,
     "tags": [
       "Laravel",
       "Hotel",
@@ -548,11 +548,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "SCWD008",
+    "id": "CSWD106",
     "title": "Online Portfolio Generator",
     "description": "A React + Firebase app that lets users design and publish their own portfolio websites using drag-and-drop templates.",
     "category": "CSE",
-    "price": 3999,
+    "price": 4000,
     "tags": [
       "React",
       "Firebase",
@@ -568,11 +568,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "SCWD009",
+    "id": "CSWD107",
     "title": "Blog Website with Admin Panel",
     "description": "A CMS-style blog platform built using Node.js and Express allowing users to write, edit, and comment on articles.",
     "category": "CSE",
-    "price": 3599,
+    "price": 4000,
     "tags": [
       "Blog",
       "NodeJS",
@@ -588,11 +588,11 @@
     "image": "/images/cse.jpeg"
   },
   {
-    "id": "SCWD010",
+    "id": "CSWD108",
     "title": "Real Estate Listing Website",
     "description": "A full-stack web app for property listings built using Django and Bootstrap with search and inquiry forms.",
     "category": "CSE",
-    "price": 4499,
+    "price": 4000,
     "tags": [
       "Real Estate",
       "Django",
@@ -604,6 +604,501 @@
       "Inquiry and contact forms",
       "Admin dashboard for property upload",
       "Responsive, modern interface"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSDL110",
+    "title": "Intelligent Traffic Analytics Platform",
+    "description": "A major computer-vision project that detects vehicles and congestion in live CCTV feeds using YOLOv5 and streams insights to a React dashboard.",
+    "category": "CSE",
+    "price": 8000,
+    "tags": [
+      "Deep Learning",
+      "Computer Vision",
+      "YOLO",
+      "React",
+      "FastAPI"
+    ],
+    "features": [
+      "Real-time vehicle detection and counting with YOLOv5",
+      "Zone-based congestion heatmaps and violation alerts",
+      "FastAPI backend with WebSocket streaming",
+      "React dashboard with charts and replay controls",
+      "Dockerized services for easy deployment on cloud or edge devices"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML114",
+    "title": "AI-Powered Learning Management System",
+    "description": "A full-stack LMS that personalizes course recommendations using collaborative filtering and provides mentor chat, quizzes, and progress analytics.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Web Development",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Machine Learning"
+    ],
+    "features": [
+      "Role-based access for admin, mentors, and students",
+      "AI-driven course recommendations and prerequisite mapping",
+      "Quizzes with auto-grading and leaderboard",
+      "Secure payments and enrollment workflows",
+      "Deployment scripts for cloud hosting (Render/Vercel)"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML115",
+    "title": "Smart Healthcare IoT Monitoring Dashboard",
+    "description": "An end-to-end IoT + ML platform that ingests patient vitals via MQTT, predicts anomalies, and visualizes trends on a responsive web dashboard.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "IoT",
+      "MQTT",
+      "Django",
+      "Streamlit",
+      "Machine Learning"
+    ],
+    "features": [
+      "MQTT broker integration with simulated or live sensor feeds",
+      "Time-series anomaly detection for heart rate and SpO2",
+      "Django REST API with JWT auth and patient management",
+      "Streamlit analytics console with charts and alerts",
+      "Docker Compose setup for rapid deployment"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSWD109",
+    "title": "Multi-Tenant SaaS Starter with Billing",
+    "description": "A production-grade SaaS boilerplate with tenant-aware data isolation, Stripe billing, and an admin console for plans and usage.",
+    "category": "CSE",
+    "price": 4000,
+    "tags": [
+      "Web Development",
+      "SaaS",
+      "React",
+      "Node.js",
+      "Stripe"
+    ],
+    "features": [
+      "Multi-tenant architecture with per-tenant data isolation",
+      "Stripe subscriptions with metered billing hooks",
+      "Role-based access control and audit logging",
+      "Admin dashboard for plan, user, and usage management",
+      "CI-ready setup with Docker and environment templates"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML116",
+    "title": "Headless Commerce Storefront",
+    "description": "A modern ecommerce frontend powered by Next.js, Tailwind, and a headless CMS/API, featuring cart, checkout, and product search.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Web Development",
+      "Next.js",
+      "Ecommerce",
+      "Tailwind",
+      "Headless CMS"
+    ],
+    "features": [
+      "SSR/ISR product pages for SEO and speed",
+      "Headless CMS integration for catalog and content",
+      "Search with filters, wishlists, and authenticated cart",
+      "Payment-ready checkout flow with dummy provider hooks",
+      "Responsive, accessible UI with Tailwind components"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSWD110",
+    "title": "Real-Time Collaboration Whiteboard",
+    "description": "A collaborative whiteboard app with drawing tools, sticky notes, and live cursors using WebSockets and canvas rendering.",
+    "category": "CSE",
+    "price": 4000,
+    "tags": [
+      "Web Development",
+      "WebSockets",
+      "Collaboration",
+      "React",
+      "Node.js"
+    ],
+    "features": [
+      "Multi-user canvas with live cursors and presence",
+      "Drawing tools, shapes, text, and sticky notes",
+      "Session persistence with autosave and exports",
+      "Room-based access with simple auth guards",
+      "Scalable WebSocket backend with Redis pub/sub"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML117",
+    "title": "AI Resume Analyzer and Job Matcher",
+    "description": "An ML-based system that analyzes resumes and matches them with job descriptions using similarity models.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Machine Learning",
+      "NLP",
+      "Resume"
+    ],
+    "features": [
+      "Resume parsing",
+      "Skill extraction",
+      "Job matching score",
+      "PDF report generation"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSDL111",
+    "title": "Face Recognition Attendance System",
+    "description": "A deep learning-based attendance system using face recognition.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Deep Learning",
+      "CNN",
+      "Face Recognition"
+    ],
+    "features": [
+      "Live face detection",
+      "Automatic attendance marking",
+      "CSV export",
+      "Admin dashboard"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML118",
+    "title": "Fake News Detection System",
+    "description": "A machine learning application that classifies news as real or fake.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Machine Learning",
+      "NLP"
+    ],
+    "features": [
+      "Text preprocessing",
+      "Fake/real prediction",
+      "Confidence score",
+      "Web interface"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSWD111",
+    "title": "Smart Online Examination System",
+    "description": "A secure web-based examination platform with auto-grading.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Web Development",
+      "PHP",
+      "MySQL"
+    ],
+    "features": [
+      "Timed exams",
+      "Auto evaluation",
+      "Question randomization",
+      "Admin panel"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML119",
+    "title": "AI Voice Assistant",
+    "description": "A machine learning powered voice assistant using speech recognition.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Machine Learning",
+      "Voice Assistant"
+    ],
+    "features": [
+      "Voice commands",
+      "Speech-to-text",
+      "Text-to-speech",
+      "Task automation"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSWD112",
+    "title": "Smart Waste Management System",
+    "description": "An IoT-enabled web dashboard for monitoring waste levels.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "IoT",
+      "Web App"
+    ],
+    "features": [
+      "Garbage level tracking",
+      "Real-time alerts",
+      "Dashboard analytics",
+      "Cloud storage"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML120",
+    "title": "Disease Prediction System",
+    "description": "A machine learning system that predicts diseases based on symptoms.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Machine Learning",
+      "Healthcare"
+    ],
+    "features": [
+      "Symptom-based input",
+      "Disease prediction",
+      "Probability output",
+      "Simple UI"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSWD113",
+    "title": "Smart Parking Management System",
+    "description": "A web-based parking slot management platform.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Web App",
+      "IoT"
+    ],
+    "features": [
+      "Live parking status",
+      "Vehicle logs",
+      "Admin dashboard",
+      "Payment-ready design"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML121",
+    "title": "Online Voting System using Blockchain",
+    "description": "A secure web voting platform integrated with blockchain.",
+    "category": "CSE",
+    "price": 8000,
+    "tags": [
+      "Blockchain",
+      "Web App"
+    ],
+    "features": [
+      "Secure authentication",
+      "Immutable votes",
+      "Transparent results",
+      "Admin controls"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML122",
+    "title": "AI Chat Application",
+    "description": "A chat system enhanced with ML-based smart replies.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Machine Learning",
+      "Chatbot"
+    ],
+    "features": [
+      "Smart responses",
+      "Chat history",
+      "User authentication",
+      "ML-based suggestions"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSWD114",
+    "title": "College ERP Management System",
+    "description": "A full-featured ERP system for colleges.",
+    "category": "CSE",
+    "price": 8000,
+    "tags": [
+      "Web Development",
+      "ERP"
+    ],
+    "features": [
+      "Student management",
+      "Faculty dashboard",
+      "Attendance & fees",
+      "Role-based login"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSDL112",
+    "title": "Handwritten Digit Recognition",
+    "description": "A deep learning CNN model to recognize handwritten digits.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Deep Learning",
+      "CNN"
+    ],
+    "features": [
+      "Digit canvas",
+      "Real-time prediction",
+      "Model accuracy",
+      "Clean UI"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSWD115",
+    "title": "Smart Home Automation Dashboard",
+    "description": "A web dashboard to control IoT-based home appliances.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "IoT",
+      "Web App"
+    ],
+    "features": [
+      "Remote control",
+      "Live status",
+      "Cloud integration",
+      "Mobile responsive UI"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSWD116",
+    "title": "Online Food Delivery Platform",
+    "description": "A complete food ordering and delivery website.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Web Development",
+      "Food Delivery"
+    ],
+    "features": [
+      "Menu listing",
+      "Cart & checkout",
+      "Order tracking",
+      "Admin panel"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML123",
+    "title": "AI-Based Plagiarism Checker",
+    "description": "A machine learning system that detects plagiarism using similarity measures.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Machine Learning",
+      "NLP"
+    ],
+    "features": [
+      "Text similarity check",
+      "Plagiarism percentage",
+      "Multi-file upload",
+      "Report download"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSDL113",
+    "title": "Traffic Sign Recognition System",
+    "description": "A CNN-based system to recognize traffic signs from images.",
+    "category": "CSE",
+    "price": 8000,
+    "tags": [
+      "Deep Learning",
+      "Computer Vision"
+    ],
+    "features": [
+      "Image upload",
+      "Sign classification",
+      "Confidence scores",
+      "Trained CNN model"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML124",
+    "title": "Customer Churn Prediction System",
+    "description": "An ML model that predicts customer churn using historical data.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Machine Learning",
+      "Business Analytics"
+    ],
+    "features": [
+      "Data preprocessing",
+      "Churn prediction",
+      "Accuracy metrics",
+      "Dashboard view"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSWD117",
+    "title": "Real Estate Listing Website",
+    "description": "A web platform for listing and searching properties.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Web Development",
+      "Real Estate"
+    ],
+    "features": [
+      "Property listings",
+      "Search & filters",
+      "Inquiry forms",
+      "Admin uploads"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSML125",
+    "title": "Stock Price Prediction System",
+    "description": "A machine learning-based stock trend prediction system.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Machine Learning",
+      "Finance"
+    ],
+    "features": [
+      "Historical data analysis",
+      "Trend prediction",
+      "Graph visualization",
+      "Accuracy display"
+    ],
+    "image": "/images/cse.jpeg"
+  },
+  {
+    "id": "CSWD118",
+    "title": "Online Course Selling Platform",
+    "description": "A web application for selling online courses with payment integration.",
+    "category": "CSE",
+    "price": 6000,
+    "tags": [
+      "Web Development",
+      "E-Learning"
+    ],
+    "features": [
+      "Course listings",
+      "Payment gateway",
+      "Student dashboard",
+      "Admin panel"
     ],
     "image": "/images/cse.jpeg"
   }

@@ -67,18 +67,25 @@ const FilterBar = ({
             )}
             {/* Suggestions removed per requirements */}
             {filters.category === 'CSE' && subcategories.length > 0 && (
-              <div className="mt-4">
-                <p className="text-xs uppercase tracking-wide text-gray-400 mb-2">
-                  CSE Specialisations
-                </p>
-                <div className="flex flex-wrap gap-2">
+              <div className="mt-6 p-4 border border-black/10 bg-gray-50 rounded-2xl">
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <div>
+                    <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">
+                      CSE specialisations
+                    </p>
+                    <p className="text-sm text-gray-700">
+                      Jump straight to Web Dev, ML, or Deep Learning tracks.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-3 mt-4">
                   <button
                     type="button"
                     onClick={() => handleSubcategoryChange('')}
-                    className={`px-3 py-1 rounded-full border text-xs font-medium transition ${
+                    className={`px-4 py-2 rounded-full text-xs font-semibold tracking-wide transition shadow-sm ${
                       !filters.subCategory
-                        ? 'bg-black text-white border-black'
-                        : 'border-black/30 text-gray-700 hover:bg-gray-100'
+                        ? 'bg-black text-white'
+                        : 'bg-white border border-black/20 text-gray-800 hover:border-black/40'
                     }`}
                   >
                     All CSE
@@ -88,10 +95,10 @@ const FilterBar = ({
                       key={option.value}
                       type="button"
                       onClick={() => handleSubcategoryChange(option.value)}
-                      className={`px-3 py-1 rounded-full border text-xs font-medium transition ${
+                      className={`px-4 py-2 rounded-full text-xs font-semibold tracking-wide transition shadow-sm ${
                         filters.subCategory === option.value
-                          ? 'bg-black text-white border-black'
-                          : 'border-black/30 text-gray-700 hover:bg-gray-100'
+                          ? 'bg-black text-white'
+                          : 'bg-white border border-black/20 text-gray-800 hover:border-black/40'
                       }`}
                     >
                       {option.label}

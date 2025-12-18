@@ -5,17 +5,17 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 import ProjectCard from '../components/ProjectCard';
 import FilterBar from '../components/FilterBar';
-import AdSidebar from '../components/AdSidebar';
 import SEO from '../components/SEO';
 
 import allProjects from '../data/projects';
 import { getDisplayCategory, getPrimaryCategory, getCseSubCategory } from '../utils/projectMetadata';
 import { logProjectsSearch } from '../utils/localAnalytics';
 const VALID_CATEGORIES = new Set(['CSE', 'EEE', 'ECE', 'MECH', 'MATLAB']);
-const VALID_SUBCATEGORIES = new Set(['ML', 'WEB']);
+const VALID_SUBCATEGORIES = new Set(['WEB', 'ML', 'DL']);
 const CSE_SUBCATEGORY_OPTIONS = [
+  { value: 'WEB', label: 'Web Development' },
   { value: 'ML', label: 'Machine Learning' },
-  { value: 'WEB', label: 'Web Development' }
+  { value: 'DL', label: 'Deep Learning' }
 ];
 
 const normalizeFilters = (next = {}) => {
@@ -404,17 +404,34 @@ const Projects = () => {
         schema={itemListSchema}
       />
 
-      <div className="container mx-auto px-4 flex gap-8 max-w-7xl">
-        <div className="flex-1">
+      <div className="container mx-auto px-4 max-w-7xl">
+        <div className="w-full">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-8"
           >
-            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4">Projects</h1>
-            <p className="text-gray-600 text-lg">
-              Browse our collection of premium project kits
-            </p>
+            <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+              <div>
+                <h1 className="text-4xl md:text-5xl font-serif font-bold mb-2">Projects</h1>
+                <p className="text-gray-600 text-lg">
+                  Browse our collection of premium project kits
+                </p>
+              </div>
+              {filters.category === 'CSE' && (
+                <div className="bg-white border border-black/10 rounded-2xl p-4 shadow-sm max-w-md">
+                  <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">
+                    Custom CSE builds
+                  </p>
+                  <p className="text-sm text-gray-700 leading-relaxed">
+                    We tailor CSE projects to your exact requirements—share your title, tech stack, and deadlines and we will build it for you.
+                  </p>
+                  <p className="text-sm font-semibold text-gray-900 mt-2">
+                    “Bring your ideas into action with us.”
+                  </p>
+                </div>
+              )}
+            </div>
           </motion.div>
 
           {/* Pass through without changing your FilterBar API */}
@@ -497,8 +514,6 @@ const Projects = () => {
             </div>
           )}
         </div>
-
-        <AdSidebar />
       </div>
     </div>
   );

@@ -57,6 +57,23 @@ const Home = () => {
                 </Link>
               ))}
             </div>
+
+            <div className="mt-12 mx-auto max-w-4xl">
+              <div className="bg-white border border-black/10 rounded-3xl p-6 md:p-8 shadow-sm text-left">
+                <p className="text-sm font-semibold uppercase tracking-wide text-gray-500 mb-2">
+                  Custom builds
+                </p>
+                <h2 className="text-2xl md:text-3xl font-serif font-bold mb-3">
+                  We build projects to your requirements
+                </h2>
+                <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-4">
+                  Share your project title and requirements—we can craft or adapt any project to match your syllabus, tech stack, and submission guidelines.
+                </p>
+                <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+                  We handle documentation, code, and delivery timelines so you stay exam-ready. Tell us what you need and we will make it happen.
+                </p>
+              </div>
+            </div>
           </motion.div>
         </div>
       </section>

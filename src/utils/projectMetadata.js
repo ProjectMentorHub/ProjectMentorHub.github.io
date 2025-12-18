@@ -89,14 +89,8 @@ const ANDROID_KEYWORDS = [
 const ML_KEYWORDS = [
   'machine learning',
   'ml',
-  'deep learning',
   'artificial intelligence',
   'ai',
-  'neural network',
-  'neural-net',
-  'cnn',
-  'rnn',
-  'lstm',
   'predict',
   'prediction',
   'predictive',
@@ -113,6 +107,26 @@ const ML_KEYWORDS = [
   'k-means',
   'logistic regression',
   'decision tree'
+];
+
+const DL_KEYWORDS = [
+  'deep learning',
+  'cnn',
+  'convolutional neural',
+  'rnn',
+  'lstm',
+  'transformer',
+  'bert',
+  'gpt',
+  'neural network',
+  'neural-net',
+  'vision transformer',
+  'resnet',
+  'mobilenet',
+  'yolov',
+  'ssd',
+  'object detection',
+  'segmentation'
 ];
 
 const WEB_KEYWORDS = [
@@ -151,6 +165,7 @@ export const getCseSubCategory = (project = {}) => {
   const text = getProjectSearchText(project);
   if (!text) return 'OTHER';
 
+  if (keywordMatch(text, DL_KEYWORDS)) return 'DL';
   if (keywordMatch(text, ANDROID_KEYWORDS)) return 'ANDROID';
   if (keywordMatch(text, ML_KEYWORDS)) return 'ML';
   if (keywordMatch(text, WEB_KEYWORDS)) return 'WEB';
